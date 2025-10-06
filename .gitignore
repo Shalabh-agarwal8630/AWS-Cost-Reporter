@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# Local IDE/project files
+.vscode/
+.idea/
+*.swp
+
+# Output data (don’t commit generated billing reports)
+output/*
+
+# Logs
+logs/*
+
+# Configs (your real AWS keys & bucket info should not go to git)
+config/.env
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
